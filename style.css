@@ -1,0 +1,70 @@
+.bss-container {
+	width: 100%;
+	margin: 15px auto;
+}
+.bss-container > .bss-button {
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	margin: 5px;
+}
+.bss-container > .bss-button > a {
+	padding: 0 25px 0 10px;
+	text-decoration: none;
+	color: white;
+	font-size: 0.8rem;
+	letter-spacing: 0.1em;
+	display: flex;
+}
+.bss-container > .bss-button > a > .bss-count {
+	margin-left: 15px;
+	font-weight: bold;
+} 
+.bss-container > .bss-button > a img {
+	height: 30px;
+	width: 30px;
+	margin: 5px 10px 0 0;
+}
+.bss-container > .bss-button.bss-fb > a {
+	background-color: #3b5998;
+}
+.bss-container > .bss-button.bss-tw > a {
+	background-color: #5ea9de;
+}
+.bss-container > .bss-button.bss-li > a {
+	background-color: #1176a9;
+}
+.bss-container > .bss-button.bss-gp > a {
+	background-color: #dd4e41;
+}
+.bss-container > .bss-button.bss-tu > a {
+	background-color: #34526f;
+}
+.bss-container > .bss-button.bss-pi > a {
+	background-color: #c9232c;
+}
+.bss-container > .bss-button.bss-wa > a {
+	background-color: #55b262;
+}
+.bss-container > .bss-button.bss-tl > a {
+	background-color: #0088cc;
+}
+@media screen and (max-width: 39.9375em) {
+	.bss-container > .bss-button {
+		height: 40px;
+		line-height: 40px;
+		float: none;
+		width: auto;
+		display: inline-block;
+		margin: 5px;
+	}
+	.bss-container > .bss-button > a {
+		padding: 0 10px;
+	}
+	.bss-container > .bss-button > a img {
+		margin: 5px 0;
+	}
+	.bss-container > .bss-button > a span {
+		display: none;
+	}
+}
